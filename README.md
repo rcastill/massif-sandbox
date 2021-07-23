@@ -1,6 +1,6 @@
 # Memory Profiler Sandbox: Massif
 
-Massif is a tool found in the [valgrind](https://valgrind.org/) suite. It is a memory profiler, it tells you how much memory was allocated and by who (function).
+Massif is a tool found in the [valgrind](https://valgrind.org/) suite. It is a memory profiler, it tells you how much memory was allocated and by whom (function).
 
 This repo shows a minimal example: _transgressor.c_ will create 10 lists in the heap, also it will free the heap randomly.
 
